@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageUpcomingMovie"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/titleUpcomingMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="-100dp" />
+
+    <TextView
+        android:id="@+id/descriptionUpcomingMovie"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="3"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:translationX="120dp"
+        android:translationY="-90dp" />
+
+    <TextView
+        android:id="@+id/releaseUpcomingMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:gravity="start"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:translationX="120dp"
+        android:translationY="-75dp" />
+
+</LinearLayout>
